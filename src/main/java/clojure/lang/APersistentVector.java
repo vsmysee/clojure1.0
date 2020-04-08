@@ -405,7 +405,7 @@ public int compareTo(Object o){
 	return 0;
 }
 
-public Stream stream() throws Exception {
+public Stream stream2() throws Exception {
     return new Stream(new Src(this));
 }
 

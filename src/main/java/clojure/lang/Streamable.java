@@ -13,5 +13,5 @@
 package clojure.lang;
 
 public interface Streamable {
-    Stream stream() throws Exception;
+    Stream stream2() throws Exception;
 }

@@ -55,7 +55,7 @@ final public class Stream implements Seqable, Streamable, Sequential {
 			});
 	}
 
-    final synchronized public Stream stream() throws Exception {
+    final synchronized public Stream stream2() throws Exception {
             return this;
     }
 

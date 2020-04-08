@@ -204,7 +204,7 @@ public Iterator iterator(){
 
 
 
-public Stream stream() throws Exception {
+public Stream stream2() throws Exception {
     return new Stream(new Src(this));
 }
 

@@ -442,7 +442,7 @@ static public Stream stream(final Object coll) throws Exception{
 	if(coll == null)
 		return new Stream(EMPTY_GEN);
 	else if(coll instanceof Streamable)
-		return ((Streamable) coll).stream();
+		return ((Streamable) coll).stream2();
 	else if(coll instanceof Fn)
 		return new Stream((IFn) coll);
 	else if(coll instanceof Iterable)

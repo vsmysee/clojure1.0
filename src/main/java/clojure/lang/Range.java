@@ -63,7 +63,7 @@ public int count() {
     return end - n;
     }
 
-public Stream stream() throws Exception {
+public Stream stream2() throws Exception {
     return new Stream(new Src(n,end));
 }
 
